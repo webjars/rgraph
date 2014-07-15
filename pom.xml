@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>rgraph</artifactId>
-    <version>3_2014-06-26-stable-SNAPSHOT</version>
+    <version>3_2014-06-26-stable</version>
     <name>RGraph</name>
     <description>WebJar for RGraph</description>
     <url>http://webjars.org</url>
@@ -34,7 +34,7 @@
         <url>http://github.com/webjars/rgraph</url>
         <connection>scm:git:https://github.com/webjars/rgraph.git</connection>
         <developerConnection>scm:git:https://github.com/webjars/rgraph.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>rgraph-3_2014-06-26-stable</tag>
     </scm>
     
     <properties>
