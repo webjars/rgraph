@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>rgraph</artifactId>
-    <version>3_2015-03-28-stable-SNAPSHOT</version>
+    <version>3_2014-06-26-stable-SNAPSHOT</version>
     <name>RGraph</name>
     <description>WebJar for RGraph</description>
     <url>http://webjars.org</url>
@@ -39,7 +39,7 @@
     
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <upstream.version>3_2014-03-28-stable</upstream.version>
+        <upstream.version>3_2014-06-26-stable</upstream.version>
         <upstream.url>http://www.rgraph.net/</upstream.url>
         <destDir>${project.build.outputDirectory}/META-INF/resources/webjars/${project.artifactId}/${upstream.version}</destDir>
         <requirejs>
