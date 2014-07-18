@@ -45,6 +45,7 @@
         <requirejs>
            {
               "paths" : {
+
                 "rgraph" : "RGraph.common.core",
                 "rgraph-dynamic"  : "RGraph.common.dynamic",
 
@@ -76,10 +77,22 @@
                 "rgraph-scatter"     : "RGraph.scatter",
                 "rgraph-thermometer" : "RGraph.thermometer",
                 "rgraph-vprogress"   : "RGraph.vprogress",
-                "rgraph-waterfall"   : "RGraph.waterfall"
+                "rgraph-waterfall"   : "RGraph.waterfall",
+
+                "rgraph-drawing-rect"    : "RGraph.drawing.rect",
+                "rgraph-drawing-yaxis"   : "RGraph.drawing.yaxis",
+                "rgraph-drawing-xaxis"   : "RGraph.drawing.xaxis",
+                "rgraph-drawing-poly"    : "RGraph.drawing.poly",
+                "rgraph-drawing-marker1" : "RGraph.drawing.marker1",
+                "rgraph-drawing-image"   : "RGraph.drawing.image",
+                "rgraph-drawing-circle"  : "RGraph.drawing.circle",
+                "rgraph-drawing-marker2" : "RGraph.drawing.marker2",
+                "rgraph-drawing-text"    : "RGraph.drawing.text"
+
               },
 
               "shim" : {
+
                 "rgraph" : [ "jquery" ],
 
                 "rgraph-dynamic"  : [ "rgraph" ],
@@ -91,12 +104,6 @@
                 "rgraph-resizing" : [ "rgraph-dynamic" ],
                 "rgraph-tooltips" : [ "rgraph-dynamic" ],
                 "rgraph-zoom"     : [ "rgraph-dynamic" ],
-
-                "rgraph-common" : [
-                  "rgraph-annotate", "rgraph-context", "rgraph-effects",
-                  "rgraph-key", "rgraph-resizing", "rgraph-tooltips",
-                  "rgraph-zoom"
-                ],
 
                 "rgraph-bar"         : [ "rgraph" ],
                 "rgraph-bipolar"     : [ "rgraph" ],
@@ -118,7 +125,18 @@
                 "rgraph-scatter"     : [ "rgraph" ],
                 "rgraph-thermometer" : [ "rgraph" ],
                 "rgraph-vprogress"   : [ "rgraph" ],
-                "rgraph-waterfall"   : [ "rgraph" ] 
+                "rgraph-waterfall"   : [ "rgraph" ], 
+
+                "rgraph-drawing-rect"    : [ "rgraph" ],
+                "rgraph-drawing-yaxis"   : [ "rgraph" ],
+                "rgraph-drawing-xaxis"   : [ "rgraph" ],
+                "rgraph-drawing-poly"    : [ "rgraph" ],
+                "rgraph-drawing-marker1" : [ "rgraph" ],
+                "rgraph-drawing-image"   : [ "rgraph" ],
+                "rgraph-drawing-circle"  : [ "rgraph" ],
+                "rgraph-drawing-marker2" : [ "rgraph" ],
+                "rgraph-drawing-text"    : [ "rgraph" ]
+
               }
            }
         </requirejs>
