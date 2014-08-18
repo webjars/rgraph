@@ -177,6 +177,7 @@
                                 <echo message="moving resources" />
                                 <move todir="${destDir}">
                                     <fileset dir="${project.build.directory}/RGraph/libraries" />
+                                    <fileset file="${project.build.directory}/RGraph/license.txt" />
                                 </move>
                             </target>
                         </configuration>
