@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>rgraph</artifactId>
-    <version>3_2015-07-27-stable-SNAPSHOT</version>
+    <version>RGraph4.66-stable</version>
     <name>RGraph</name>
     <description>WebJar for RGraph</description>
     <url>http://webjars.org</url>
@@ -19,6 +19,11 @@
     <developers>
         <developer>
             <id>cleverdeveloper</id>
+        </developer>
+        <developer>
+            <id>russellhoff</id>
+            <name>Jon I.</name>
+            <email>captain06@gmail.com</email>
         </developer>
     </developers>
 
@@ -39,7 +44,7 @@
     
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <upstream.version>3_2014-07-27-stable</upstream.version>
+        <upstream.version>RGraph4.66-stable</upstream.version>
         <upstream.url>http://www.rgraph.net/</upstream.url>
         <destDir>${project.build.outputDirectory}/META-INF/resources/webjars/${project.artifactId}/${upstream.version}</destDir>
         <requirejs>
